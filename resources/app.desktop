@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=SSH Launcher
+Comment=SSH connections from the COSMIC panel
+Type=Application
+Icon=io.github.cosmic-ssh-launcher
+Exec=cosmic-ssh-launcher %F
+Terminal=false
+StartupNotify=true
+Categories=COSMIC;Network;
+Keywords=COSMIC;SSH;
+X-CosmicApplet=true
+NoDisplay=true
