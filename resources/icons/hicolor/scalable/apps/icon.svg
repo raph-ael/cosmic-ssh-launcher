@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Terminal window -->
+  <rect x="4" y="8" width="56" height="48" rx="6" ry="6" fill="none" stroke="currentColor" stroke-width="3"/>
+  <!-- Title bar line -->
+  <line x1="4" y1="18" x2="60" y2="18" stroke="currentColor" stroke-width="2"/>
+  <!-- Prompt chevron > -->
+  <polyline points="14,30 22,36 14,42" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Cursor line _ -->
+  <line x1="26" y1="42" x2="38" y2="42" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+  <!-- Key symbol -->
+  <circle cx="48" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  <line x1="52" y1="14" x2="58" y2="20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="56" y1="18" x2="58" y2="16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
